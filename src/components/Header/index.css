@@ -1,0 +1,42 @@
+/* Write your CSS code here */
+.nav-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+}
+
+.nav-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.website-logo {
+  width: 180px;
+  height: 50px;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+li,
+link {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 15px;
+}
+
+.logout-desktop-btn {
+  background-color: #0b69ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
